@@ -1,0 +1,11 @@
+step,count,retention_%
+UNII total (FDA database),168046,100.0
+Chemical structures,125803,74.86224010092475
+Clinical evidence (RXCUI / DailyMed / INN / USAN),16777,9.983575925639409
+ADME calculated,16777,9.983575925639409
+Drug-like filters (Lipinski + Veber + MW/logP),2687,1.598966949525725
+3D conformers generated,2611,1.5537412375182986
+Energy QC successful,2685,1.59777679920974
+Energy filtered (<200 kcal/mol),2611,1.5537412375182986
+Final ligands for docking,2664,1.5852802208918986
+PDBQT docking library,2611,1.5537412375182986

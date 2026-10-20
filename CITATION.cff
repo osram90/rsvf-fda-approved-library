@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "FDA-Approved Drug-Like Compound Library for RSV Fusion Protein Virtual Screening"
+abstract: >
+  A curated, drug-like filtered subset of FDA-approved compounds (DrugCentral + ChEMBL
+  max_phase = 4) prepared for structure-based virtual screening against the RSV Fusion
+  protein (PDB: 5EA3). The library was filtered using Lipinski Rule of Five, Veber
+  oral bioavailability criteria, and energy QC, yielding 2,611 PDBQT-ready compounds
+  from an initial set of 168,046 entries. Includes SMILES, InChIKey, ADME descriptors
+  (MW, logP, TPSA, rotatable bonds, HBD/HBA), and validated 3D conformers.
+authors:
+  - family-names: "Osuna-Ramos"
+    given-names: "Juan Fidel"
+    email: "osram90@gmail.com"
+    orcid: ""
+version: "1.0.0"
+date-released: "2026-10-20"
+license: CC-BY-4.0
+repository-code: "https://github.com/osram90/rsvf-fda-approved-library"
+keywords:
+  - "virtual screening"
+  - "FDA-approved drugs"
+  - "RSV"
+  - "Respiratory Syncytial Virus"
+  - "drug repurposing"
+  - "AutoDock Vina"
+  - "drug-like compounds"
+  - "DrugCentral"
+  - "ChEMBL"
+  - "Lipinski"
+  - "ADME"
