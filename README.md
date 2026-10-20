@@ -26,6 +26,10 @@ Or use the **"Cite this repository"** button on the right sidebar of this page (
 | `data/fda_druglike_filtered.csv` | 2,687 | Drug-like compounds after Lipinski + Veber + MW/logP filters |
 | `data/fda_with_adme.csv` | 2,687 | Same set with full ADME descriptor panel (MW, logP, TPSA, ROT, HBD, HBA) |
 | `data/fda_docking_ready.csv` | 2,611 | Validated 3D conformers, energy-QC passed, PDBQT-ready for AutoDock Vina |
+| `data/fda_clinical_smiles.csv` | 5,539 | SMILES + InChIKey for the clinical evidence set |
+| `data/fda_clinical_smiles.smi` | 5,539 | Same in standard `.smi` format (SMILES name, no header) |
+| `data/fda_druglike_smiles.csv` | 2,687 | SMILES + InChIKey for the drug-like filtered set |
+| `data/fda_druglike_smiles.smi` | 2,687 | Same in standard `.smi` format |
 | `data/pipeline_funnel_summary.csv` | — | Filtering statistics at each step |
 | `data/pipeline_funnel.png` | — | Visual funnel diagram (publication-ready) |
 
