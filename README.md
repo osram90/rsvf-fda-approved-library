@@ -21,9 +21,11 @@ Or use the **"Cite this repository"** button on the right sidebar of this page (
 
 | File | Records | Description |
 |------|---------|-------------|
-| `data/fda_druglike_filtered.csv` | 2,687 | Drug-like compounds passing all filters, with SMILES, InChIKey, and ADME properties |
-| `data/fda_with_adme.csv` | 2,687 | Same set with full ADME descriptor panel |
-| `data/fda_docking_ready.csv` | 2,611 | Validated 3D conformers, energy-QC passed, PDBQT-ready |
+| `data/unii_chembl_limpio_master.csv` | 16,777 | Master dataset: FDA UNII + ChEMBL (max_phase = 4), cleaned and standardized |
+| `data/fda_clinical_drugs.csv` | 16,777 | FDA-approved drugs with confirmed clinical evidence (RXCUI / DailyMed / INN / USAN) |
+| `data/fda_druglike_filtered.csv` | 2,687 | Drug-like compounds after Lipinski + Veber + MW/logP filters |
+| `data/fda_with_adme.csv` | 2,687 | Same set with full ADME descriptor panel (MW, logP, TPSA, ROT, HBD, HBA) |
+| `data/fda_docking_ready.csv` | 2,611 | Validated 3D conformers, energy-QC passed, PDBQT-ready for AutoDock Vina |
 | `data/pipeline_funnel_summary.csv` | — | Filtering statistics at each step |
 | `data/pipeline_funnel.png` | — | Visual funnel diagram (publication-ready) |
 
