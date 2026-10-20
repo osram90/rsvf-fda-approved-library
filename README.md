@@ -1,10 +1,10 @@
-# FDA-Approved Drug-Like Compound Library for RSV-F Virtual Screening
+# FDA-Approved Drug-Like Compound Library for Structure-Based Virtual Screening
 
 [![DOI](https://zenodo.org/badge/latestdoi/osram90/rsvf-fda-approved-library)](https://github.com/osram90/rsvf-fda-approved-library)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-A curated, drug-like filtered library of **2,611 FDA-approved compounds** prepared for
-structure-based virtual screening against the RSV Fusion protein (PDB: [5EA3](https://www.rcsb.org/structure/5EA3)).
+A curated, drug-like filtered library of **2,611 FDA-approved compounds** ready for
+structure-based virtual screening against any protein target.
 
 ---
 
@@ -12,7 +12,7 @@ structure-based virtual screening against the RSV Fusion protein (PDB: [5EA3](ht
 
 If you use this dataset, please cite:
 
-> Osuna-Ramos JF. *FDA-Approved Drug-Like Compound Library for RSV Fusion Protein Virtual Screening* (v1.0.0). GitHub, 2026. https://github.com/osram90/rsvf-fda-approved-library
+> Osuna-Ramos JF. *FDA-Approved Drug-Like Compound Library for Structure-Based Virtual Screening* (v1.0.0). GitHub, 2026. https://github.com/osram90/rsvf-fda-approved-library
 
 Or use the **"Cite this repository"** button on the right sidebar of this page (powered by `CITATION.cff`).
 
