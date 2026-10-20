@@ -1,6 +1,5 @@
 # FDA-Approved Drug-Like Compound Library for Structure-Based Virtual Screening
 
-[![DOI](https://zenodo.org/badge/latestdoi/osram90/rsvf-fda-approved-library)](https://github.com/osram90/rsvf-fda-approved-library)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 A curated, drug-like filtered library of **2,611 FDA-approved compounds** ready for
@@ -27,13 +26,6 @@ Or use the **"Cite this repository"** button on the right sidebar of this page (
 | `data/fda_docking_ready.csv` | 2,611 | Validated 3D conformers, energy-QC passed, PDBQT-ready |
 | `data/pipeline_funnel_summary.csv` | — | Filtering statistics at each step |
 | `data/pipeline_funnel.png` | — | Visual funnel diagram (publication-ready) |
-| `receptor/5EA3_clean.pdb` | — | RSV-F prefusion receptor (ATOM only, chain F) |
-| `receptor/5EA3_rigid.pdbqt` | — | Receptor in PDBQT format, ready for AutoDock Vina |
-| `grid_boxes/site_O_prefusion.json` | — | Search box for Site Ø (center + size in Å) |
-| `grid_boxes/site_II.json` | — | Search box for Site II |
-| `grid_boxes/site_III.json` | — | Search box for Site III |
-| `grid_boxes/site_IV.json` | — | Search box for Site IV |
-| `grid_boxes/site_V.json` | — | Search box for Site V |
 
 ### Columns in `fda_druglike_filtered.csv`
 
@@ -84,7 +76,6 @@ UNII total (FDA)             168,046
 - **DrugCentral 2023** — [drugcentral.org](https://drugcentral.org)
 - **ChEMBL** (max_phase = 4) — [ebi.ac.uk/chembl](https://www.ebi.ac.uk/chembl/)
 - **FDA UNII** — [fdasis.nlm.nih.gov](https://fdasis.nlm.nih.gov)
-- **PDB 5EA3** — Roymans et al., *PNAS* 2017. DOI: [10.1073/pnas.1700782114](https://doi.org/10.1073/pnas.1700782114)
 
 ---
 
@@ -92,10 +83,3 @@ UNII total (FDA)             168,046
 
 This dataset is released under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
 You are free to use, share, and adapt the data with attribution.
-
----
-
-## Related repository
-
-Full virtual screening pipeline (scripts + docking results):  
-→ [osram90/rsv-f-virtual-screening](https://github.com/osram90/rsv-f-virtual-screening)
