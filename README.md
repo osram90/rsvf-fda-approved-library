@@ -27,6 +27,13 @@ Or use the **"Cite this repository"** button on the right sidebar of this page (
 | `data/fda_docking_ready.csv` | 2,611 | Validated 3D conformers, energy-QC passed, PDBQT-ready |
 | `data/pipeline_funnel_summary.csv` | — | Filtering statistics at each step |
 | `data/pipeline_funnel.png` | — | Visual funnel diagram (publication-ready) |
+| `receptor/5EA3_clean.pdb` | — | RSV-F prefusion receptor (ATOM only, chain F) |
+| `receptor/5EA3_rigid.pdbqt` | — | Receptor in PDBQT format, ready for AutoDock Vina |
+| `grid_boxes/site_O_prefusion.json` | — | Search box for Site Ø (center + size in Å) |
+| `grid_boxes/site_II.json` | — | Search box for Site II |
+| `grid_boxes/site_III.json` | — | Search box for Site III |
+| `grid_boxes/site_IV.json` | — | Search box for Site IV |
+| `grid_boxes/site_V.json` | — | Search box for Site V |
 
 ### Columns in `fda_druglike_filtered.csv`
 
