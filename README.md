@@ -88,38 +88,6 @@ You are free to use, share, and adapt the data with attribution.
 
 ---
 
-## 3D Structures
-
-### `structures/receptor/`
-| File | Description |
-|------|-------------|
-| `5EA3_clean.pdb` | RSV-F prefusion receptor (ATOM only, chain F, no waters/ions) |
-
-### `structures/docking_complexes/`
-Top-ranked docking pose (pose 1, pre-MD) for each selected candidate:
-
-| File | Site | Compound | Affinity (kcal/mol) |
-|------|------|----------|---------------------|
-| `00_site_O_RIMEGEPANT_SULFATE_complex.pdb` | Site Ø | Rimegepant sulfate | −9.1 |
-| `02_site_II_CHLORHEXIDINE_complex.pdb` | Site II | Chlorhexidine | −8.7 |
-| `03_site_III_RIMEGEPANT_SULFATE_complex.pdb` | Site III | Rimegepant sulfate | −9.3 |
-| `04_site_IV_ATOVAQUONE_complex.pdb` | Site IV | Atovaquone | −8.4 |
-| `06_site_V_VIBEGRON_complex.pdb` | Site V | Vibegron | −8.6 |
-
-### `structures/md_snapshots/`
-Protein–ligand complex snapshots extracted from 10 ns MD trajectories at t = 0, 5, and 10 ns
-(GROMACS 2025.3, AMBER99sb-ildn + GAFF2, RTX 5080 GPU):
-
-| Compound | t = 0 ns | t = 5 ns | t = 10 ns |
-|----------|----------|----------|-----------|
-| Rimegepant / Site Ø | `01_site_O_RIMEGEPANT_t0ns_clean.pdb` | `…t5ns…` | `…t10ns…` |
-| Chlorhexidine / Site II | `02_site_II_CHLORHEXIDINE_t0ns_clean.pdb` | `…t5ns…` | `…t10ns…` |
-| Rimegepant / Site III | `03_site_III_RIMEGEPANT_t0ns_clean.pdb` | `…t5ns…` | `…t10ns…` |
-| Atovaquone / Site IV | `04_site_IV_ATOVAQUONE_t0ns_clean.pdb` | `…t5ns…` | `…t10ns…` |
-| Vibegron / Site V | `06_site_V_VIBEGRON_t0ns_clean.pdb` | `…t5ns…` | `…t10ns…` |
-
----
-
 ## Related repository
 
 Full virtual screening pipeline (scripts + docking results):  
